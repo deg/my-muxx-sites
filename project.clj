@@ -22,7 +22,7 @@
                  [degel-clojure-utils "0.1.6"]
 
                  ;; Our apps
-                 [receipts "0.1.0-SNAPSHOT"]]
+                 [deg-scraps "0.1.0-SNAPSHOT"]]
 
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}

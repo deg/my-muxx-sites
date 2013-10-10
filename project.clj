@@ -27,4 +27,6 @@
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}
 
+  :min-lein-version "2.0.0"
+
   :main degel.deploy.deployment)

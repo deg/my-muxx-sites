@@ -27,10 +27,10 @@
                              (webol/app-properties)])))
 
 
-(def repl-env
-  (reset! austin-repls/browser-repl-env (austin/repl-env)))
-
-
-(defn start-cljs-repl []
-  (-main)
-  (austin-repls/cljs-repl repl-env))
+;;; (def repl-env
+;;;   (reset! austin-repls/browser-repl-env (austin/repl-env)))
+;;;
+;;;
+;;; (defn start-cljs-repl []
+;;;   (-main)
+;;;   (austin-repls/cljs-repl repl-env))

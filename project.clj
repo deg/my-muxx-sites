@@ -22,7 +22,8 @@
                  [degel-clojure-utils "0.1.6"]
 
                  ;; Our apps
-                 [deg-scraps "0.1.0-SNAPSHOT"]]
+                 [deg-scraps "0.1.0-SNAPSHOT"]
+                 [webol "0.1.0-SNAPSHOT"]]
 
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}

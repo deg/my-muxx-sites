@@ -10,7 +10,7 @@
 ;;; You must not remove this notice, or any other, from this software.
 
 
-(defproject my-muxx-sites "0.1.0-SNAPSHOT"
+(defproject my-muxx-sites "0.1.0"
   :description "Deployment project to wrap my web apps into a single site."
   :url "https://github.com/deg/my-muxx-sites"
   :license {:name "Eclipse Public License"
@@ -22,8 +22,8 @@
                  [degel-clojure-utils "0.1.6"]
 
                  ;; Our apps
-                 [deg-scraps "0.1.0-SNAPSHOT"]
-                 [webol "0.1.0-SNAPSHOT"]]
+                 [deg-scraps "0.1.0"]
+                 [webol "0.1.0"]]
 
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}

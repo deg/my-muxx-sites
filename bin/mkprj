@@ -17,5 +17,6 @@ mr register .
 mkdir checkouts
 cd checkouts
 ln -s ../../degel-clojure-utils/ degel-clojure-utils
+ln -s ../../muxx/ muxx
 ln -s ../../deg-scraps/ deg-scraps
 ln -s ../../webol/ webol

@@ -26,7 +26,7 @@
 
                  ;; Our apps
                  [deg-scraps "0.1.1"]
-                 [webol "0.1.2"]]
+                 [webol "0.1.3"]]
 
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}

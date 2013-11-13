@@ -6,6 +6,8 @@ Here as a public project mostly as an example of how to use muxx.
 
 ## Usage
 
+![latest version](https://clojars.org/muxx/latest-version.svg)
+
 FIXME
 
 ## License

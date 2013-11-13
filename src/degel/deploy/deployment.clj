@@ -12,9 +12,7 @@
 
 (ns degel.deploy.deployment
   (:gen-class)
-  (:require [cemerick.austin :as austin]
-            [cemerick.austin.repls :as austin-repls]
-            [degel.muxx.server :as muxx]
+  (:require [degel.muxx.server :as muxx]
             [degel.receipts.server :as receipts]
             [degel.webol.server :as webol]
             [degel.cljutil.devutils :as dev]))
@@ -27,10 +25,4 @@
                              (webol/app-properties)])))
 
 
-;;; (def repl-env
-;;;   (reset! austin-repls/browser-repl-env (austin/repl-env)))
-;;;
-;;;
-;;; (defn start-cljs-repl []
-;;;   (-main)
-;;;   (austin-repls/cljs-repl repl-env))
+

@@ -13,6 +13,7 @@
 (ns degel.deploy.deployment
   (:gen-class)
   (:require [degel.muxx.server :as muxx]
+            [degel.mummy.server :as mummy]
             [degel.receipts.server :as receipts]
             [degel.webol.server :as webol]
             [degel.cljutil.devutils :as dev]))
@@ -21,7 +22,8 @@
 (defn -main [& [port]]
   (let [port (Integer. (or port (System/getenv "PORT") 3000))]
     (muxx/run-servers :port port
-                      :apps [(receipts/app-properties)
+                      :apps [(mummy/app-properties)
+                             (receipts/app-properties)
                              (webol/app-properties)])))
 
 

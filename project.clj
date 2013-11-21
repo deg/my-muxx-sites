@@ -19,14 +19,15 @@
                  [org.clojure/clojure "1.5.1"]
 
                  ;; Degel's Clojure utility library
-                 [degel-clojure-utils "0.1.15"]
+                 [degel-clojure-utils "0.1.15" :exclusions [org.clojure/tools.reader]]
 
                  ;; Degel's website multiplexer
                  [muxx "0.1.2"]
 
                  ;; Our apps
-                 [deg-scraps "0.1.1"]
-                 [webol "0.1.4"]]
+                 [degel/mummy "0.1.0"]
+                 [deg-scraps "0.1.1" :exclusions [org.clojure/clojurescript]]
+                 [webol "0.1.4" :exclusions [org.clojure/clojurescript]]]
 
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}

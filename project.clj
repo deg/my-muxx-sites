@@ -10,7 +10,7 @@
 ;;; You must not remove this notice, or any other, from this software.
 
 
-(defproject degel/my-muxx-sites "0.1.5"
+(defproject degel/my-muxx-sites "0.1.6"
   :description "Deployment project to wrap my web apps into a single site."
   :url "https://github.com/deg/my-muxx-sites"
   :license {:name "Eclipse Public License"
@@ -18,15 +18,15 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
 
                  ;; Degel Clojure utility library
-                 [degel/degel-clojure-utils "0.1.20"]
+                 [degel/degel-clojure-utils "0.1.21"]
 
                  ;; Degel website multiplexer
-                 [degel/muxx "0.1.6"]
+                 [degel/muxx "0.1.7"]
 
                  ;; Our apps
-                 [degel/mummy "0.1.3"]
-                 [deg-scraps "0.1.4"]
-                 [degel/webol "0.1.9"]]
+                 [degel/mummy "0.1.4"]
+                 [deg-scraps "0.1.5"]
+                 [degel/webol "0.1.11"]]
 
   :profiles {:dev
              { :plugins [[lein-marginalia "0.7.1"]]}}
